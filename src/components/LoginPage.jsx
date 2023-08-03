@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 export default function LoginPage() {
   {
     /* state (état, datas) */
@@ -10,6 +12,7 @@ export default function LoginPage() {
   const HandleSubmit = (event) => {
     event.preventDefault();
     alert(`Bonjour ${inputValue}`);
+    setInputValue("")
   };
   const HandleChange = (event) => {
     setInputValue(event.target.value);
