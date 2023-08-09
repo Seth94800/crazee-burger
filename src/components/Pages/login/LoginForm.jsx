@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import "./LoginForm.css"
 
 export default function LoginForm() {
   const [inputValue, setInputValue] = useState("");
@@ -22,17 +23,24 @@ export default function LoginForm() {
     /* affichage (render) */
     return (
       <>
+      <div className="Logo">
+
+      <p>Crazee</p>
+      <img src="../src/assets/images/F03 logo-orange.png" alt="Logo" />
+      <p>Burger</p>
+      </div>
         <form action="Submit" onSubmit={HandleSubmit}>
           <h1>Bienvenue chez nous !</h1>
+          <hr></hr>
           <h2>Connectez-vous</h2>
           <input
             value={inputValue}
             onChange={HandleChange}
             type="text"
-            placeholder="entrez votre prénom..."
+            placeholder="entrez votre prénom"
             required
           />
-          <button>Accédez à votre espace</button>
+          <button>Accéder à mon espace  </button>
         </form>
       </>
     );
