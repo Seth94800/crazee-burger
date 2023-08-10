@@ -1,4 +1,5 @@
 import LoginForm from "./LoginForm";
+import "./LoginPage.css"
 
 export default function LoginPage() {
   /* state (état, datas) */
@@ -6,6 +7,9 @@ export default function LoginPage() {
   return (
     <>
       <LoginForm />
+    <div className="login-page">
+
+    </div>
       
     </>
   );
