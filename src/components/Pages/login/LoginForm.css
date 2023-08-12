@@ -22,10 +22,10 @@ form {
   margin: 15px;
 }
 
-.Logo {
+.crazee-logo {
   display: flex;
 }
-p {
+.p-logo {
   color: #ffa01b;
   text-align: center;
   font-family: Amatic SC;
@@ -37,7 +37,7 @@ p {
   text-transform: uppercase;
 }
 
-img {
+.img-logo {
   height: 150px;
   width: 200px;
 }

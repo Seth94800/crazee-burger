@@ -1,0 +1,69 @@
+.container {
+  background: orange;
+  border-radius: 5px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar {
+  flex-direction: row;
+  display: flex;
+  background: white;
+  width: 1400px;
+  height: 15vh;
+  padding: 0px 70px 0px 20px;
+  border-radius: 15px 15px 0px 0px;
+  gap: 950.234375px;
+}
+
+.crazee-logo {
+  display: flex;
+  align-items: center;
+}
+.p-logo {
+  color: #ffa01b;
+  text-align: center;
+  font-family: Amatic SC;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115px; /* 104.545% */
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.img-logo {
+  height: 60px;
+  width: 80px;
+}
+
+.nav-profil-container {
+  display: flex;
+ position: sticky;
+  height: 44px;
+  width: 120px;
+}
+.nav-profil-container h1 {
+    font-family: Open Sans;
+  font-size: 16px;
+  color: gray;
+}
+.nav-profil-container button {
+  width: 73px;
+  height: 14px;
+  top: 26px;
+  font-family: Open Sans;
+  color: grey;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+.bsperson {
+  width: 36px;
+  height: 36px;
+  margin: 5px;
+  color: grey;
+}
