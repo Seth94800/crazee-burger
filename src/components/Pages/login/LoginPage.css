@@ -1,20 +1,19 @@
-body {
-background-image: url('../src/assets/images/F03 burger-background.jpg'); /* Chemin relatif vers votre image */
+.login-page {
+  background-image: url("../src/assets/images/F03 burger-background.jpg"); /* Chemin relatif vers image */
 
-background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le fond */
-background-position: center; /* Centre l'image à l'écran */
-/* Ajoutez d'autres styles pour le positionnement et le formatage de votre contenu */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
 
-
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
-
-/* body::after {
-position: absolute;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-background: rgba(0, 0, 0, 0.7);
-content: "";
-} */

@@ -6,8 +6,8 @@ export default function LoginPage() {
 
   return (
     <>
-      <LoginForm />
     <div className="login-page">
+      <LoginForm />
 
     </div>
       
