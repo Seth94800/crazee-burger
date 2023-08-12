@@ -1,7 +1,11 @@
-import { Link, useParams } from "react-router-dom";
-import Logo from "../../reusable-ui/Logo";
+import { useParams } from "react-router-dom";
 import "./OrderPage.css";
-import { BsPersonCircle } from "react-icons/bs";
+import "./Main.css";
+import "./Navbar.css";
+import "./NavbarLeft.css";
+import "./NavbarRight.css";
+import Navbar from "./Navbar";
+import Main from "./Main";
 
 
 
@@ -13,18 +17,9 @@ const { username } = useParams()
     //affichage
   return (
     <div className="container">
-      <div className="navbar">
-        <div className="logo-order">
-          <Logo />
-        </div>
-        <div className="nav-profil-container">
-          <h1>Hey, {username}</h1>
-          <Link to= "/">
-          <button>Se déconnecter</button>
-          </Link>
-          <BsPersonCircle className="bsperson" />
-        </div>
-      </div >
+      <Navbar username= {username}/>
+      <Main />
+      
     </div>
   )
 }

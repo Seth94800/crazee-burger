@@ -1,0 +1,18 @@
+
+  .navbar {
+    flex-direction: row;
+    display: flex;
+    background: white;
+    width: 1400px;
+    height: 10vh;
+    padding: 0px 70px 0px 20px;
+    border-radius: 15px 15px 0px 0px;
+    gap: 950.234375px;
+  }
+  .bsperson {
+    width: 36px;
+    height: 36px;
+    margin: 5px;
+    color: grey;
+  }
+  

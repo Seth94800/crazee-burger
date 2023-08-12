@@ -3,15 +3,16 @@
   border-radius: 5px;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.navbar {
+/* .navbar {
   flex-direction: row;
   display: flex;
   background: white;
   width: 1400px;
-  height: 15vh;
+  height: 10vh;
   padding: 0px 70px 0px 20px;
   border-radius: 15px 15px 0px 0px;
   gap: 950.234375px;
@@ -29,7 +30,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: 115px; /* 104.545% */
-  letter-spacing: 1.5px;
+  /* letter-spacing: 1.5px;
   text-transform: uppercase;
 }
 
@@ -60,10 +61,11 @@
   line-height: 14px;
   letter-spacing: 0em;
   text-align: right;
-}
-.bsperson {
+}  */
+
+/* .bsperson {
   width: 36px;
   height: 36px;
   margin: 5px;
   color: grey;
-}
+} */

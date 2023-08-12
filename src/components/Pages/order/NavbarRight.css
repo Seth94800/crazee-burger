@@ -1,0 +1,23 @@
+.nav-profil-container {
+    display: flex;
+   position: sticky;
+    height: 44px;
+    width: 120px;
+  }
+  .nav-profil-container h1 {
+      font-family: Open Sans;
+    font-size: 16px;
+    color: gray;
+  }
+  .nav-profil-container button {
+    width: 73px;
+    height: 14px;
+    top: 26px;
+    font-family: Open Sans;
+    color: grey;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: right;
+  }

@@ -1,0 +1,21 @@
+.crazee-logo {
+    display: flex;
+    align-items: center;
+  }
+  .p-logo {
+    color: #ffa01b;
+    text-align: center;
+    font-family: Amatic SC;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115px; /* 104.545% */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+  
+  .img-logo {
+    height: 60px;
+    width: 80px;
+  }
+  
