@@ -6,12 +6,12 @@ export default function LoginForm() {
   {
     /* comportements */
   }
-  const HandleSubmit = (event) => {
+  const handleSubmit = (event) => {
     event.preventDefault();
     alert(`Bonjour ${inputValue}`);
     setInputValue("");
   };
-  const HandleChange = (event) => {
+  const handleChange = (event) => {
     setInputValue(event.target.value);
   };
 
@@ -19,12 +19,12 @@ export default function LoginForm() {
     /* affichage (render) */
     return (
       <>
-        <form action="Submit" onSubmit={HandleSubmit}>
+        <form action="Submit" onSubmit={handleSubmit}>
           <h1>Bienvenue chez nous !</h1>
           <h2>Connectez-vous</h2>
           <input
             value={inputValue}
-            onChange={HandleChange}
+            onChange={handleChange}
             type="text"
             placeholder="entrez votre prénom..."
             required
