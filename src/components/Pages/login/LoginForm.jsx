@@ -2,6 +2,8 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { BsPersonCircle } from "react-icons/bs";
 import { FaChevronRight } from "react-icons/fa";
+// import { theme } from "../../../theme"
+
 import "./LoginForm.css";
 
 export default function LoginForm() {
@@ -11,13 +13,13 @@ export default function LoginForm() {
   {
     /* comportements */
   }
-  const HandleSubmit = (event) => {
+  const handleSubmit = (event) => {
     event.preventDefault();
 
     setInputValue("");
     navigate(`order/ ${inputValue}`);
   };
-  const HandleChange = (event) => {
+  const handleChange = (event) => {
     setInputValue(event.target.value);
   };
 
@@ -32,7 +34,7 @@ export default function LoginForm() {
         </div>
 
         <div className="wrapper-form">
-          <form action="Submit" onSubmit={HandleSubmit}>
+          <form action="Submit" onSubmit={handleSubmit}>
             <div className="bienvenue">
               <h1>Bienvenue chez nous !</h1>
               <hr></hr>
@@ -43,7 +45,7 @@ export default function LoginForm() {
               <BsPersonCircle className="bsperson" />
               <input
                 value={inputValue}
-                onChange={HandleChange}
+                onChange={handleChange}
                 type="text"
                 placeholder="entrez votre prénom"
                 required
