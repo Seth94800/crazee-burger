@@ -10,9 +10,9 @@ export default function LoginForm() {
   const [inputValue, setInputValue] = useState("");
   const navigate = useNavigate();
 
-  {
+  
     /* comportements */
-  }
+  
   const handleSubmit = (event) => {
     event.preventDefault();
 
@@ -23,7 +23,7 @@ export default function LoginForm() {
     setInputValue(event.target.value);
   };
 
-  {
+  
     /* affichage (render) */
     return (
       <>
@@ -47,18 +47,18 @@ export default function LoginForm() {
                 value={inputValue}
                 onChange={handleChange}
                 type="text"
-                placeholder="entrez votre prénom"
+                placeholder="Entrez votre prénom..."
                 required
               />
             </div>
 
             <div className="button-with-icon">
-              <button>Accéder à mon espace </button>
+              <button>Accédez à votre espace</button>
               <FaChevronRight className="chevron" />
             </div>
           </form>
         </div>
       </>
     );
-  }
+  
 }
